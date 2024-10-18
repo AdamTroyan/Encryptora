@@ -17,6 +17,7 @@ public class UserInterface {
 
     public void start() {
         boolean continueRunning = true;
+        new ProcessBuilder("cmd", "/c", "cls").inheritIO();
         System.out.println(GREEN + "Welcome to Encryptora!" + RESET);
 
         while (continueRunning) {
