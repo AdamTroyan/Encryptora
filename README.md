@@ -18,7 +18,7 @@
 ### Clone the Repository
 ```bash
 git clone https://github.com/AdamTroyan/Encryptora.git
-cd encryptora
+cd Encryptora
 ```
 
 ## Run the Application
