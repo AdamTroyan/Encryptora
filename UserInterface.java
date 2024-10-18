@@ -61,7 +61,7 @@ public class UserInterface {
             encryptionService.encrypt(inputFilePath, outputFilePath, password);
             System.out.println(GREEN + "\nFile encrypted successfully!\n" + RESET);
         } catch (Exception e) {
-            System.err.println(RED + "\nError: " + e.getMessage() + RESET + "\n");
+            System.err.println(RED + "\nError: " + e.getMessage() + RESET);
         }
     }
 
