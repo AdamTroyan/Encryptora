@@ -21,17 +21,10 @@ git clone https://github.com/AdamTroyan/Encryptora.git
 cd encryptora
 ```
 
-## Build the Project
-If you're using Gradle, you can build the project with the following command:
-```bash
-./gradlew build
-```
-
 ## Run the Application
 Navigate to the src directory and run the application:
 ```bash
-cd src
-java dev.adam.encryptora.Encryptora
+java Encryptora
 ```
 
 ## Usage
